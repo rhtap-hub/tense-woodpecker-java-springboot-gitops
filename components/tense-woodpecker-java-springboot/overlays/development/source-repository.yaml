@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: tense-woodpecker-java-springboot-repository
+spec:
+  url: https://github.com/rhtap-hub/tense-woodpecker-java-springboot
